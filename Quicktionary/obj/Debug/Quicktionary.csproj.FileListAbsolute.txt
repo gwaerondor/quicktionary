@@ -1,0 +1,15 @@
+e:\c-sharp\Quicktionary\Quicktionary\bin\Debug\Quicktionary.exe.config
+e:\c-sharp\Quicktionary\Quicktionary\bin\Debug\Quicktionary.exe
+e:\c-sharp\Quicktionary\Quicktionary\bin\Debug\Quicktionary.pdb
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\App.g.cs
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary_MarkupCompile.cache
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary_MarkupCompile.lref
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary.g.resources
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary.Properties.Resources.resources
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary.csproj.GenerateResource.Cache
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary.exe
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary.pdb
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\MainWindow.g.cs
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\MainWindow.baml
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\ResultWindow.g.cs
+e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\ResultWindow.baml
