@@ -5,14 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Quicktionary"
         mc:Ignorable="d"
-        Title="快典" Height="300" Width="300">
+        Title="快典" Height="700" Width="700">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="66*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="73*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Text="Results" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="269" Width="292"/>
-
-
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextAlignment="Left" TextWrapping="Wrap" Text="Results" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="700" Width="700"/>
     </Grid>
 </Window>

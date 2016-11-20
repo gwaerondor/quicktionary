@@ -13,3 +13,4 @@ e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\MainWindow.g.cs
 e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\MainWindow.baml
 e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\ResultWindow.g.cs
 e:\c-sharp\Quicktionary\Quicktionary\obj\Debug\ResultWindow.baml
+E:\c-sharp\Quicktionary\Quicktionary\obj\Debug\Quicktionary.csprojResolveAssemblyReference.cache

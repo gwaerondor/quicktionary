@@ -22,12 +22,14 @@ namespace Quicktionary
         public ResultWindow(string text)
         {
             InitializeComponent();
-            textBlock.Text = "Results for " + text;
+            StartWebClient(text);
         }
 
-        private void richTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void StartWebClient(string text)
         {
-
+            TranslationClient client = new TranslationClient();
+            string resultPage = client.Request(text);
+            textBlock.Text = resultPage;
         }
     }
 }
