@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,17 +20,22 @@ namespace Quicktionary
     /// </summary>
     public partial class ResultWindow : Window
     {
-        public ResultWindow(string text)
+        public ResultWindow(String text, ChineseDictionary dictionary)
         {
             InitializeComponent();
-            StartWebClient(text);
+            String result = DoDictionaryLookup(text, dictionary);
+            textBlock.Text = result;
         }
 
-        private void StartWebClient(string text)
+        private String DoDictionaryLookup(String query, ChineseDictionary dictionary)
         {
-            TranslationClient client = new TranslationClient();
-            string resultPage = client.Request(text);
-            textBlock.Text = resultPage;
+            ArrayList hits = dictionary.Query(query);
+            String result = "";
+            foreach (DictionaryEntry e in hits)
+            {
+                result = result + e.ToString() + "\n";
+            }
+            return result;
         }
     }
 }

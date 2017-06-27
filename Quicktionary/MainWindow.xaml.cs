@@ -23,15 +23,16 @@ namespace Quicktionary
         private bool changeTriggeredFromInitialText;
         private bool shouldDisplayWatermark;
         private string initialMessage;
+        private ChineseDictionary dictionary;
 
         public MainWindow()
         {
             this.shouldDisplayWatermark = true;
             this.changeTriggeredFromInitialText = true;
             InitializeComponent();
-            Loaded += (sender, e) =>
-            MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
+            Loaded += (sender, e) => MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
             this.initialMessage = inputBox.Text;
+            this.dictionary = new ChineseDictionary(@"E:\cedict\cedict_ts.u8");
         }
 
         void EnterPressed(object sender, KeyEventArgs e)
@@ -45,7 +46,7 @@ namespace Quicktionary
 
         private void OpenResults()
         {
-            ResultWindow results = new ResultWindow(inputBox.Text);
+            ResultWindow results = new ResultWindow(inputBox.Text, dictionary);
             results.Show();
             this.Close();   
         }
